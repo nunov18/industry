@@ -179,7 +179,7 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4 col-xs-4">
+        <div class="col-sm-4 col-xs-12">
           <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/bm1.jpg" alt="">
@@ -196,7 +196,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-xs-4">
+        <div class="col-sm-4 col-xs-12">
           <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/valuechain.jpg" alt="">
@@ -213,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-xs-4">
+        <div class="col-sm-4 col-xs-12">
           <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/knowledge.jpg" alt="">
@@ -401,10 +401,10 @@
       </div>
       <div class="team-members">
         <div class="row">
-          <div class="col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+          <div class="col-sm-4 col-sm-offset-2 col-xs-6">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/francisco.jpg" alt="">
+                <img class="img-responsive" style="border-radius: 1%; width 50px" src="images/team/francisco.jpg" alt="">
               </div>
               <div class="member-info">
                 <h3>Francisco Rio</h3>
@@ -416,10 +416,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-4">
+          <div class="col-sm-4 col-xs-6">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/nuno.jpg" alt="">
+                <img class="img-responsive" style="border-radius: 1%; width 50px" src="images/team/nuno.jpg" alt="">
               </div>
               <div class="member-info">
                 <h3>Nuno Vieira</h3>
@@ -530,15 +530,38 @@
     <div id="contact-us" class="parallax">
       <div class="container">
         <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="heading text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="transbox">
               <h2>Do you Feel Ready!</h2>
-              <p>Let's get in touch at <b> dreambig@consulting.pt </b></p>
+              <h3>Let's get in touch<b>!</b></h3>
+                <form action="action_page.php" class="container-form">
+
+                  <label for="fname"><h4>First Name</h4></label>
+                  <br>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <br>
+
+                  <label for="lname"><h4>Last Name</h4></label>
+                  <br>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <br>
+
+                  <label for="country"><h4>E-mail</h4></label>
+                  <br>
+                  <input type="text" id="email" name="email" placeholder="insert your e-mail..">
+                  <br>
+
+                  <label for="subject"><h4>Subject</h4></label>
+                  <br>
+                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                  <br>
+
+                  <input type="submit" value="Submit">
+                  <br>
+                  <p></p>
+
+                </form>
             </div>
-          </div>
-        </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="row">
           </div>
         </div>
       </div>

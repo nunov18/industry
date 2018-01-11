@@ -52,7 +52,7 @@ h3 {
 .parallax textarea,
 .parallax textarea:hover {
   font-weight: 300;
-  color: #fff;
+  color: #000;
 }
 
 .btn {
@@ -317,7 +317,7 @@ section {
 #about-us {
   background-image: url(../images/cut.jpg);
   background-size: contain;
-  padding: 280px 0;
+  padding: 200px 0;
 }
 
 #about-us h2 {
@@ -365,8 +365,8 @@ section {
   margin: 30px;
   background-color: #555;
   border: 1px solid rgba(255, 255, 255, 0.17);
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+  opacity: 0.95;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 
